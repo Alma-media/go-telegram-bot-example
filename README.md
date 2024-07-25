@@ -1,6 +1,9 @@
 # go-telegram-bot-example
 
-This repository is an example of the concept of building Telegram (and other) bots, which does not claim to be a standard or an indisputable truth, which provides a simple and readable code divided into separate layers (thanks to [Uncle Bob](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)). In particular, a simple concept of working with user scripts has been implemented.  
+> [!IMPORTANT]
+> In this repository I used the library https://github.com/go-telegram-bot-api/telegram-bot-api, however today it is outdated and irrelevant, for this reason I advise using alternative libraries, among which I can confidently recommend https://github.com/go-telegram/bot. I hope I will have free time to update this repository with an up-to-date library and a more correct approach in general.
+
+This repository is an example of the concept of building Telegram (and other) bots, which does not claim to be a standard or an indisputable truth, which provides a simple and readable code divided into separate layers. In particular, a simple concept of working with user scripts has been implemented.  
 
 For a complete immersion in the implementation, it is better to view the source code, which is commented in sufficient detail.
 
@@ -10,7 +13,7 @@ An object-oriented approach is proposed: business entities are implemented at th
 
 ### Project structure
 
-The code is structured and organized based on the simplified concept of [clean architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html). 
+The code is structured and organized based on the **simplified** concept of [clean architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html). 
 
 ```
 ├── assets
